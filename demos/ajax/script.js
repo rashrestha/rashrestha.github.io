@@ -5,7 +5,7 @@
         document.querySelector('#hw').addEventListener("change",function () {
             var file = 'homeworks/' + document.querySelector('#hw').value;
             fetch(file)
-            .then((res)=>{var x = res; console.log(res);})
+            .then(res=>res.text())
             .then(data=>{
                 document.querySelector('#output').value = data;
             })
