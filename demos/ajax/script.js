@@ -2,11 +2,11 @@
     "use strict";
 
     window.addEventListener("load",function () {
-        document.querySelect('#hw').addEventListener("change",function () {
-            var file = 'homeworks/' + document.querySelect('#hw').val();
+        document.querySelector('#hw').addEventListener("change",function () {
+            var file = 'homeworks/' + document.querySelector('#hw').val();
             fetch(file)
             .then((data)=>{
-                document.querySelect('#output').val(data);
+                document.querySelector('#output').val(data);
             })
         });
     });
