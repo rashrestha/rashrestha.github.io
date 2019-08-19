@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Hello, World!</title>
+    <script>
+        function showFullName() {
+            const firstName = document.getElementById("first_name").value;
+            const lastName = document.getElementById("last_name").value;
+            document.getElementById("output").innerHTML = firstName + " " + lastName;
+        }
+    </script>
+</head>
+
+<body>
+    First Name: <input type="text" id="first_name"><br>
+    Last Name: <input type="text" id="last_name"><br>
+    <input type="button" value="Show Full Name" onclick="showFullName()">
+    <span id="output"></span>
+</body>
+
+</html>
