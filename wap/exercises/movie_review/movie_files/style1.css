@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 16, 2015, 10:22:46 AM
+    Author     : rakeshshrestha
+*/
+
+body{
+    background-image: url('background.png');
+    font-size: 8px;
+    font-family: Verdana,Thoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner{
+    background-image: url('bannerbg.png');
+}
+
+#wrapper{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+    border-width: 4px;
+    overflow: hidden;
+}
+
+#sidebar{
+    background-color: #A2B964;
+    width: 250px;
+    float: right;
+}
+dl{
+    padding: 10pt;
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+}
+dt{
+    font-weight: bold;
+    margin-top: 10pt;
+}
+#content{
+    width: 550px;
+}
+#content-banner{
+    height: 83px;
+    background-image: url('rbg.png');
+}
+
+#content-banner img{
+    vertical-align: text-bottom;
+}
+#rating{
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+}
+
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Thoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+.review-column{
+    width: 47%;
+    margin-right: 1.5%;;
+    margin-left: 1.5%;
+    float: left;
+}
+
+#footer{
+    clear: both;
+    background-color: #A2B964;
+    padding: 5px;
+    text-align: center;
+}
+
+.comment{
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.comment img{
+    margin-right: 5px;
+}
+
+.critic img{
+    float: left;
+    margin-right: 5px;
+}
+.critic{
+    overflow: hidden;
+}
+#validators{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.review{
+    margin-bottom: 20pt;
+}

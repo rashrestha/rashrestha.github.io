@@ -1,0 +1,36 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #b1a9a9;
+    border: 2px solid #e96a6a;
+
+    /* <ul> have no height set so when <li>s are floated its height will be 0 and hence no background color is seen on scrren */
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    border-right: 1px solid #635a5a;
+}
+
+li a{
+    /* <a> is an inline element, and hence padding top bottom won't be considered by default*/
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:last-child{
+    float: right;
+    border-right: none;
+}
+
+li a:hover:not(.active){
+    background-color: #c2bfbf;
+}
+
+.active{
+    background-color: #a50b25;
+}
