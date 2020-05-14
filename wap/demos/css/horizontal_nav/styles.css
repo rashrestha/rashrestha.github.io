@@ -10,7 +10,7 @@ ul{
 }
 
 li{
-    float: left;
+    display: inline-block;
     border-right: 1px solid #635a5a;
 }
 
@@ -34,3 +34,4 @@ li a:hover:not(.active){
 .active{
     background-color: #a50b25;
 }
+
